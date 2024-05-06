@@ -1,6 +1,24 @@
-<html ng-app="ndesktop.main" data-theme-option="dark" data-site="neyine" class="dark" data-theme="dark"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+<html ng-app="ndesktop.main" data-theme-option="dark" data-site="neyine" class="dark" data-theme="dark"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
     <title>NEYİNE | Spor Bahisleri, Casino, Canlı Casino ve En yüksek oranlar</title>
 
+    <!-- for Google -->
+    <meta name="description" content="NEYINE - Canlı Bahis, Casino, Slot ve Poker, Avrupanın en önde gelen bahis ve oyun sitesi. Canlı Casino, Canlı Bahis, Slot Oyunları ile hem eğlenip hem de kazanın. Şimdi bize katılın!">
+    <meta name="keywords" content="bahis, canlı bahis, casino, canlı casino, canlı poker, poker, online bahis, online casino, mobil bahis">
+    <meta name="author" content="neyine">
+    <meta name="application-name" content="Sports Betting Solution">
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="NEYINE - Canlı Bahis, Casino, Slot ve Poker">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://cdn.nagcdn.com/_ngamingbase/neyine/assets/images/sharer-200-200.jpg">
+    <meta property="og:url" content="http://www.neyine999.com">
+    <meta property="og:description" content="Avrupanın en önde gelen bahis ve oyun sitesi. Canlı Casino, Canlı Bahis, Slot Oyunları ile hem eğlenip hem de kazanın. Şimdi bize katılın!">
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="NEYINE - Canlı Bahis, Casino, Slot ve Poker">
+    <meta name="twitter:description" content="Avrupanın en önde gelen bahis ve oyun sitesi. Canlı Casino, Canlı Bahis, Slot Oyunları ile hem eğlenip hem de kazanın. Şimdi bize katılın!">
+    <meta name="twitter:image" content="https://cdn.nagcdn.com/_ngamingbase/neyine/assets/images/sharer-200-200.jpg">
 
     <!-- Set Base Href -->
     <base href="/">
@@ -8,22 +26,39 @@
     <!-- Favicon -->
     <link rel="icon" href="https://cdn.nagcdn.com/_ngamingbase/neyine/favicon.png?v=1" type="image/x-icon">
 
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <meta name="apple-mobile-web-app-status-bar-style" content="yes">
 
     <!-- Styles -->
     <link href="https://cdn.nagcdn.com/_ngamingbase/core/assets/styles/app.style.min.css?v=22" rel="stylesheet">
     <link href="https://cdn.nagcdn.com/_ngamingbase/neyine/assets/styles/site.style.min.css?v=22" rel="stylesheet">
 
     <!-- Ng Styles -->
-   
-            <!-- Site Header -->
-
-
-
-
-
-
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
 <script type="text/javascript">
-    window.hasMobileFirstExtension = true;</script></head><body><div id="siteHeader" class="col-12 uk-flex uk-flex-middle uk-flex-between ng-scope uk-sticky" uk-sticky="animation: uk-animation-slide-top; show-on-up: true; media: (max-width: 500px)">
+    window.hasMobileFirstExtension = true;</script></head>
+<body ng-controller="MainCtrl" lang="tr" class="ng-scope">
+    <div id="siteContainer" class="container-fluid">
+        <div class="row">
+            <!-- Site Header -->
+            <!-- ngInclude: undefined --><ng-include src="headerTemplateUrl" ng-controller="HeaderCtrl" class="uk-padding-remove ng-scope"><!-- ngIf: !processLoading || userModel.loading || forgotLoading -->
+
+<div class="header-spacer ng-scope"></div>
+
+<!-- ngIf: headerNotifications --><div class="header-notification ng-scope uk-alert" ng-if="headerNotifications" uk-alert="">
+    <p class="ng-binding">Güncel resmi adresimiz www.neyine493.com'dur. Sıradaki adresimiz www.neyine494.com olacaktır.</p>
+    <a class="uk-alert-close uk-icon uk-close" ng-click="setHeaderNotfCookies();" uk-close=""><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" data-svg="close-icon"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></a>
+</div><!-- end ngIf: headerNotifications -->
+
+<div id="siteHeader" class="col-12 uk-flex uk-flex-middle uk-flex-between ng-scope uk-sticky" uk-sticky="animation: uk-animation-slide-top; show-on-up: true; media: (max-width: 500px)">
 
     <!-- Logo & Nav Link -->
     <div class="logo uk-flex">
@@ -41,12 +76,12 @@
         </a>
 
         <!-- Back -->
-        <a class="history-back-button na-alt-static-button uk-button uk-margin-left uk-disabled" ng-class="{'uk-disabled' : !historyBackDisabled}" ng-click="historyBack();" uk-tooltip="title: Geri Dön" aria-expanded="false" title="">
+        <a class="history-back-button na-alt-static-button uk-button uk-margin-left" ng-class="{'uk-disabled' : !historyBackDisabled}" ng-click="historyBack();" uk-tooltip="title: Geri Dön" title="" aria-expanded="false">
             <span uk-icon="arrow-left" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="arrow-left"><polyline fill="none" stroke="#000" points="10 14 5 9.5 10 5"></polyline><line fill="none" stroke="#000" x1="16" y1="9.5" x2="5" y2="9.52"></line></svg></span>
         </a>
 
         <!-- Search -->
-        <a class="search-button na-alt-static-button uk-button uk-margin-small-left uk-icon uk-search-icon" uk-search-icon="" uk-toggle="" href="#modal-search" uk-tooltip="title: Arama" aria-expanded="false" title=""><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg></a>
+        <a class="search-button na-alt-static-button uk-button uk-margin-small-left uk-icon uk-search-icon" uk-search-icon="" uk-toggle="" href="#modal-search" uk-tooltip="title: Arama" title="" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg></a>
 
         <div id="modal-search" class="uk-modal-full uk-modal" uk-modal="">
             <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle uk-search-dialog" uk-height-viewport="">
@@ -56,7 +91,8 @@
                 </form>
             </div>
         </div>
-</div>
+    </div>
+
     <!-- Actions -->
     <div class="actions">
         <!-- ngIf: !loginStatus || loginStatus == '' --><div class="before-login ng-scope" ng-if="!loginStatus || loginStatus == ''">
@@ -229,7 +265,7 @@
                                     <label class="ng-binding">Ülke</label>
 
                                     <select name="country" class="uk-select uk-margin-small-top ng-pristine ng-untouched ng-valid ng-valid-required" placeholder="Ülke" ng-model="register.Country" ng-change="getCity(register.Country);" tabindex="5" required="">
-                                        <!-- ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TUR" class="ng-binding ng-scope">Turkey</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ALB" class="ng-binding ng-scope">Albania</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ARG" class="ng-binding ng-scope">Argentina</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ARM" class="ng-binding ng-scope">Armenia</option><!-- end ngRepeat: item in countryList -->
+                                        <!-- ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TUR" class="ng-binding ng-scope">Turkey</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ALB" class="ng-binding ng-scope">Albania</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ARG" class="ng-binding ng-scope">Argentina</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ARM" class="ng-binding ng-scope">Armenia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="AUS" class="ng-binding ng-scope">Australia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="AUT" class="ng-binding ng-scope">Austria</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="AZE" class="ng-binding ng-scope">Azerbaijan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BHR" class="ng-binding ng-scope">Bahrain</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BGD" class="ng-binding ng-scope">Bangladesh</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BLR" class="ng-binding ng-scope">Belarus</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BEL" class="ng-binding ng-scope">Belgium</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BOL" class="ng-binding ng-scope">Bolivia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BIH" class="ng-binding ng-scope">Bosnia and Herzegovina</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BRA" class="ng-binding ng-scope">Brazil</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="BGR" class="ng-binding ng-scope">Bulgaria</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="CMR" class="ng-binding ng-scope">Cameroon</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="CHN" class="ng-binding ng-scope">China</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="HRV" class="ng-binding ng-scope">Croatia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="CYP" class="ng-binding ng-scope">Cyprus</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="CZE" class="ng-binding ng-scope">Czech Republic</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="DNK" class="ng-binding ng-scope">Denmark</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="EGY" class="ng-binding ng-scope">Egypt</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="EST" class="ng-binding ng-scope">Estonia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="FIN" class="ng-binding ng-scope">Finland</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="GEO" class="ng-binding ng-scope">Georgia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="DEU" class="ng-binding ng-scope">Germany</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="GRC" class="ng-binding ng-scope">Greece</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="HKG" class="ng-binding ng-scope">Hong Kong</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="HUN" class="ng-binding ng-scope">Hungary</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ISL" class="ng-binding ng-scope">Iceland</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="IND" class="ng-binding ng-scope">India</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="IDN" class="ng-binding ng-scope">Indonesia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="IRN" class="ng-binding ng-scope">Iran</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="IRQ" class="ng-binding ng-scope">Iraq</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="IRL" class="ng-binding ng-scope">Ireland</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ISR" class="ng-binding ng-scope">Israel</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="JPN" class="ng-binding ng-scope">Japan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="JOR" class="ng-binding ng-scope">Jordan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="KAZ" class="ng-binding ng-scope">Kazakhstan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="KEN" class="ng-binding ng-scope">Kenya</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PRK" class="ng-binding ng-scope">Korea, Democratic People's Republic of</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="KOR" class="ng-binding ng-scope">Korea, Republic of</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="KWT" class="ng-binding ng-scope">Kuwait</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="KGZ" class="ng-binding ng-scope">Kyrgyzstan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="LVA" class="ng-binding ng-scope">Latvia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="LBN" class="ng-binding ng-scope">Lebanon</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="LBY" class="ng-binding ng-scope">Libyan Arab Jamahiriya</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="LTU" class="ng-binding ng-scope">Lithuania</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="LUX" class="ng-binding ng-scope">Luxembourg</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MAC" class="ng-binding ng-scope">Macao</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MKD" class="ng-binding ng-scope">Macedonia, the Former Yugoslav Republic of</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MYS" class="ng-binding ng-scope">Malaysia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MLI" class="ng-binding ng-scope">Mali</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MLT" class="ng-binding ng-scope">Malta</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MEX" class="ng-binding ng-scope">Mexico</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MDA" class="ng-binding ng-scope">Moldova, Republic of</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MCO" class="ng-binding ng-scope">Monaco</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MNG" class="ng-binding ng-scope">Mongolia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="MAR" class="ng-binding ng-scope">Morocco</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="NPL" class="ng-binding ng-scope">Nepal</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="NLD" class="ng-binding ng-scope">Netherlands</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="NZL" class="ng-binding ng-scope">New Zealand</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="NGA" class="ng-binding ng-scope">Nigeria</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="NOR" class="ng-binding ng-scope">Norway</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PAK" class="ng-binding ng-scope">Pakistan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PAN" class="ng-binding ng-scope">Panama</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PRY" class="ng-binding ng-scope">Paraguay</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PER" class="ng-binding ng-scope">Peru</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PHL" class="ng-binding ng-scope">Philippines</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="POL" class="ng-binding ng-scope">Poland</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="PRT" class="ng-binding ng-scope">Portugal</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="QAT" class="ng-binding ng-scope">Qatar</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ROM" class="ng-binding ng-scope">Romania</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="RUS" class="ng-binding ng-scope">Russian Federation</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SGP" class="ng-binding ng-scope">Singapore</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SVK" class="ng-binding ng-scope">Slovakia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SVN" class="ng-binding ng-scope">Slovenia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SDN" class="ng-binding ng-scope">Sudan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SWE" class="ng-binding ng-scope">Sweden</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="CHE" class="ng-binding ng-scope">Switzerland</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="SYR" class="ng-binding ng-scope">Syrian Arab Republic</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TWN" class="ng-binding ng-scope">Taiwan, Province of China</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TJK" class="ng-binding ng-scope">Tajikistan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="THA" class="ng-binding ng-scope">Thailand</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TUN" class="ng-binding ng-scope">Tunisia</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="TKM" class="ng-binding ng-scope">Turkmenistan</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="UKR" class="ng-binding ng-scope">Ukraine</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="ARE" class="ng-binding ng-scope">United Arab Emirates</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="URY" class="ng-binding ng-scope">Uruguay</option><!-- end ngRepeat: item in countryList --><option ng-repeat="item in countryList" value="UZB" class="ng-binding ng-scope">Uzbekistan</option><!-- end ngRepeat: item in countryList -->
                                     </select>
 
                                     <!-- ngIf: registerForm.country.$touched -->
@@ -240,7 +276,7 @@
 
                                     <!-- ngIf: cityList == '' -->
 
-                                    <!-- ngIf: cityList != '' --><select class="uk-select uk-margin-small-top ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" name="city" tabindex="6" ng-change="cityChange(CityModal);" ng-model="CityModal" ng-if="cityList != ''" ng-options="item as item.value for item in cityList track by item.id" required=""><option value="" class="ng-binding" selected="selected">Lütfen Seçiniz</option><option label="Adana" value="Adana">Adana</option></select><!-- end ngIf: cityList != '' -->
+                                    <!-- ngIf: cityList != '' --><select class="uk-select uk-margin-small-top ng-pristine ng-untouched ng-scope ng-invalid ng-invalid-required" name="city" tabindex="6" ng-change="cityChange(CityModal);" ng-model="CityModal" ng-if="cityList != ''" ng-options="item as item.value for item in cityList track by item.id" required=""><option value="" class="ng-binding" selected="selected">Lütfen Seçiniz</option><option label="Adana" value="Adana">Adana</option><option label="Adıyaman" value="Adıyaman">Adıyaman</option><option label="Afyonkarahisar" value="Afyonkarahisar">Afyonkarahisar</option><option label="Ağrı" value="Ağrı">Ağrı</option><option label="Aksaray" value="Aksaray">Aksaray</option><option label="Amasya" value="Amasya">Amasya</option><option label="Ankara" value="Ankara">Ankara</option><option label="Antalya" value="Antalya">Antalya</option><option label="Ardahan" value="Ardahan">Ardahan</option><option label="Artvin" value="Artvin">Artvin</option><option label="Aydın" value="Aydın">Aydın</option><option label="Balıkesir" value="Balıkesir">Balıkesir</option><option label="Bartın" value="Bartın">Bartın</option><option label="Batman" value="Batman">Batman</option><option label="Bayburt" value="Bayburt">Bayburt</option><option label="Bilecik" value="Bilecik">Bilecik</option><option label="Bingöl" value="Bingöl">Bingöl</option><option label="Bitlis" value="Bitlis">Bitlis</option><option label="Bolu" value="Bolu">Bolu</option><option label="Burdur" value="Burdur">Burdur</option><option label="Bursa" value="Bursa">Bursa</option><option label="Çanakkale" value="Çanakkale">Çanakkale</option><option label="Çankırı" value="Çankırı">Çankırı</option><option label="Çorum" value="Çorum">Çorum</option><option label="Denizli" value="Denizli">Denizli</option><option label="Diyarbakır" value="Diyarbakır">Diyarbakır</option><option label="Düzce" value="Düzce">Düzce</option><option label="Edirne" value="Edirne">Edirne</option><option label="Elazığ" value="Elazığ">Elazığ</option><option label="Erzincan" value="Erzincan">Erzincan</option><option label="Erzurum" value="Erzurum">Erzurum</option><option label="Eskişehir" value="Eskişehir">Eskişehir</option><option label="Gaziantep" value="Gaziantep">Gaziantep</option><option label="Giresun" value="Giresun">Giresun</option><option label="Gümüşhane" value="Gümüşhane">Gümüşhane</option><option label="Hakkari" value="Hakkari">Hakkari</option><option label="Hatay" value="Hatay">Hatay</option><option label="Iğdır" value="Iğdır">Iğdır</option><option label="Isparta" value="Isparta">Isparta</option><option label="İstanbul" value="İstanbul">İstanbul</option><option label="İzmir" value="İzmir">İzmir</option><option label="Kahramanmaraş" value="Kahramanmaraş">Kahramanmaraş</option><option label="Karabük" value="Karabük">Karabük</option><option label="Karaman" value="Karaman">Karaman</option><option label="Kars" value="Kars">Kars</option><option label="Kastamonu" value="Kastamonu">Kastamonu</option><option label="Kayseri" value="Kayseri">Kayseri</option><option label="Kilis" value="Kilis">Kilis</option><option label="Kırıkkale" value="Kırıkkale">Kırıkkale</option><option label="Kırklareli" value="Kırklareli">Kırklareli</option><option label="Kırşehir" value="Kırşehir">Kırşehir</option><option label="Kocaeli" value="Kocaeli">Kocaeli</option><option label="Konya" value="Konya">Konya</option><option label="Kütahya" value="Kütahya">Kütahya</option><option label="Malatya" value="Malatya">Malatya</option><option label="Manisa" value="Manisa">Manisa</option><option label="Mardin" value="Mardin">Mardin</option><option label="Mersin" value="Mersin">Mersin</option><option label="Muğla" value="Muğla">Muğla</option><option label="Muş" value="Muş">Muş</option><option label="Nevşehir" value="Nevşehir">Nevşehir</option><option label="Niğde" value="Niğde">Niğde</option><option label="Ordu" value="Ordu">Ordu</option><option label="Osmaniye" value="Osmaniye">Osmaniye</option><option label="Rize" value="Rize">Rize</option><option label="Sakarya" value="Sakarya">Sakarya</option><option label="Samsun" value="Samsun">Samsun</option><option label="Şanlıurfa" value="Şanlıurfa">Şanlıurfa</option><option label="Siirt" value="Siirt">Siirt</option><option label="Sinop" value="Sinop">Sinop</option><option label="Şırnak" value="Şırnak">Şırnak</option><option label="Sivas" value="Sivas">Sivas</option><option label="Tekirdağ" value="Tekirdağ">Tekirdağ</option><option label="Tokat" value="Tokat">Tokat</option><option label="Trabzon" value="Trabzon">Trabzon</option><option label="Tunceli" value="Tunceli">Tunceli</option><option label="Uşak" value="Uşak">Uşak</option><option label="Van" value="Van">Van</option><option label="Yalova" value="Yalova">Yalova</option><option label="Yozgat" value="Yozgat">Yozgat</option><option label="Zonguldak" value="Zonguldak">Zonguldak</option></select><!-- end ngIf: cityList != '' -->
 
                                     <!-- ngIf: registerForm.city.$touched -->
                                 </div>
@@ -487,7 +523,7 @@
             }
         </style>
     </div>
-</div>
+</div><div class="uk-sticky-placeholder" hidden="" style="height: 102px; margin: 0px;"></div></ng-include>
 
             <!-- Spacer Border -->
             <div class="spacer uk-flex uk-flex-column"></div>
@@ -502,7 +538,6 @@
         <!-- ngIf: FDuserLoggedIn -->
 
         <!-- ngRepeat: menu in menuData --><ul class="sideMenu uk-list ng-scope pt-0" ng-repeat="menu in menuData" ng-class="{'pt-0':$index == 0}">
-            <li class="uk-link-heading ng-binding">Spor Bahisleri</li>
             <!-- ngIf: menu.GroupDetail[0].GroupNameTranslation == 'Oyunlar' || menu.GroupDetail[0].GroupNameTranslation == 'Games' -->
             <!-- ngRepeat: menuItem in menu.GroupDetail --><li ng-repeat="menuItem in menu.GroupDetail" class="ng-scope">
                 <a ng-href="/sports/#!/live" ng-click="closeSidebar($event, menuItem.MenuName);" ng-class="{'active' : menuItem.MenuName == AppCode}" class="ng-binding" href="/sports/#!/live">
@@ -518,7 +553,6 @@
                 </a>
             </li><!-- end ngRepeat: menuItem in menu.GroupDetail -->
         </ul><!-- end ngRepeat: menu in menuData --><ul class="sideMenu uk-list ng-scope" ng-repeat="menu in menuData" ng-class="{'pt-0':$index == 0}">
-            <li class="uk-link-heading ng-binding">Casino</li>
             <!-- ngIf: menu.GroupDetail[0].GroupNameTranslation == 'Oyunlar' || menu.GroupDetail[0].GroupNameTranslation == 'Games' -->
             <!-- ngRepeat: menuItem in menu.GroupDetail --><li ng-repeat="menuItem in menu.GroupDetail" class="ng-scope">
                 <a ng-href="/casino/#!/live-casino" ng-click="closeSidebar($event, menuItem.MenuName);" ng-class="{'active' : menuItem.MenuName == AppCode}" class="ng-binding" href="/casino/#!/live-casino">
@@ -534,7 +568,6 @@
                 </a>
             </li><!-- end ngRepeat: menuItem in menu.GroupDetail -->
         </ul><!-- end ngRepeat: menu in menuData --><ul class="sideMenu uk-list ng-scope" ng-repeat="menu in menuData" ng-class="{'pt-0':$index == 0}">
-            <li class="uk-link-heading ng-binding">Oyunlar</li>
             <!-- ngIf: menu.GroupDetail[0].GroupNameTranslation == 'Oyunlar' || menu.GroupDetail[0].GroupNameTranslation == 'Games' --><li ng-if="menu.GroupDetail[0].GroupNameTranslation == 'Oyunlar' || menu.GroupDetail[0].GroupNameTranslation == 'Games'" class="ng-scope">
                 <a href="/casino/#!/slots?provider=-1" ng-click="closeSidebar($event, 'JackpotPlay');" ng-class="{'active' : 'JackpotPlay' == AppCode}">
                     <span class="menuicon-jackpotplay"></span>
@@ -565,7 +598,6 @@
 
         <!-- Other -->
         <ul class="sideMenu uk-list">
-            <li class="uk-link-heading ng-binding">Diğer</li>
             <li>
                 <a href="/promotions/#!/list" ng-click="closeSidebar($event);" ng-class="{'active' : AppCode == 'Promotions'}" class="ng-binding">
                     <span class="menuicon-promo"></span>
@@ -599,7 +631,7 @@
         <!-- Language -->
         <div class="sideMenu pb-3">
             <div class="uk-link-heading ng-binding">Dil Seçimi</div>
-            <select class="uk-select mt-2 ng-pristine ng-untouched ng-valid" ng-options="lang.name for lang in languagesList" ng-change="changeLanguage(selectedLang.code)" ng-model="selectedLang"><option label="English" value="object:40">English</option><option label="Türkçe" value="object:41" selected="selected">Türkçe</option></select>
+            <select class="uk-select mt-2 ng-pristine ng-untouched ng-valid" ng-options="lang.name for lang in languagesList" ng-change="changeLanguage(selectedLang.code)" ng-model="selectedLang"><option label="English" value="object:39">English</option><option label="Türkçe" value="object:40" selected="selected">Türkçe</option></select>
         </div>
 
         <!-- Socials -->
@@ -689,26 +721,16 @@
 </div></ng-include>
 
             <!-- Site Content -->
-
+            <!-- ngView:  --><div id="siteContent" class="col-10 ng-scope" ng-view=""><!-- slider -->
 <slider-widget page="home" class="ng-scope ng-isolate-scope"><!-- Banner Alternative Carousel -->
-<!-- ngIf: sliderOptions.Data --><div class="splide bannerCarousel mb-3 ng-scope splide--slide splide--ltr splide--draggable is-active is-initialized" ng-if="sliderOptions.Data" data-splide="{&quot;perPage&quot;: 2}" id="splide01">
+<!-- ngIf: sliderOptions.Data --><div class="splide bannerCarousel mb-3 ng-scope is-initialized splide--slide splide--ltr splide--draggable is-active" ng-if="sliderOptions.Data" data-splide="{&quot;perPage&quot;: 2}" id="splide01">
 
-        <ul class="splide__list" id="splide01-list" style="transform: translateX(0px);">
-
-                <a href="/casino/#!/slots?provider=93" url-target=""><img ng-src="https://cdn.nagcdn.com/neyine/slider/home/bellanasyfslot.png" alt="" src="https://cdn.nagcdn.com/neyine/slider/home/bellanasyfslot.png"></a>
-            <!-- end ngRepeat: item in sliderOptions.Data --><li class="splide__slide ng-scope is-visible is-next" ng-repeat="item in sliderOptions.Data" id="splide01-slide02" style="margin-right: 15px; width: calc(50% - 7.5px);" tabindex="0">
-                <a href="/promotions/#!/list?id=947" url-target=""><img ng-src="https://cdn.nagcdn.com/neyine/slider/home/freespinanasyf.png" alt="" src="https://cdn.nagcdn.com/neyine/slider/home/freespinanasyf.png"></a>
-            </li><!-- end ngRepeat: item in sliderOptions.Data --><li class="splide__slide ng-scope" ng-repeat="item in sliderOptions.Data" id="splide01-slide03" style="margin-right: 15px; width: calc(50% - 7.5px);" aria-hidden="true">
-                <a href="/promotions/#!/list?id=967" url-target="" tabindex="-1"><img ng-src="https://cdn.nagcdn.com/neyine/slider/home/arkadas.png" alt="" src="https://cdn.nagcdn.com/neyine/slider/home/arkadas.png"></a>
-            </li><!-- end ngRepeat: item in sliderOptions.Data -->
-        </ul>
-    </div>
 
     <div class="splide__arrows">
         <button class="splide__arrow splide__arrow--prev uk-slidenav" aria-controls="splide01-track" aria-label="Go to last slide"><span uk-icon="chevron-right" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="chevron-right"><polyline fill="none" stroke="#000" stroke-width="1.03" points="7 4 13 10 7 16"></polyline></svg></span></button>
         <button class="splide__arrow splide__arrow--next uk-slidenav" aria-controls="splide01-track" aria-label="Next slide"><span uk-icon="chevron-right" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="chevron-right"><polyline fill="none" stroke="#000" stroke-width="1.03" points="7 4 13 10 7 16"></polyline></svg></span></button>
     </div>
-<!-- end ngIf: sliderOptions.Data -->
+</div><!-- end ngIf: sliderOptions.Data -->
 </slider-widget>
 
 <!-- content -->
@@ -721,50 +743,48 @@
             <div class="splide is-initialized splide--slide splide--ltr splide--draggable is-active" id="splide02">
                 <div class="splide__track" id="splide02-track" style="padding-left: 0px; padding-right: 0px;">
                     <ul class="splide__list" id="splide02-list" style="transform: translateX(0px);">
-                        <!-- ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-active is-visible" ng-repeat="menu in menuData" id="splide02-slide01" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
-                            <a href="https://www.neyine491.com/sports/#!/live" class="ng-binding">
+                        <!-- ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-active is-visible" ng-repeat="menu in menuData" id="splide02-slide01" style="margin-right: 10px; width: calc(50% - 5px);" tabindex="0">
+                            <a href="/sports/#!/live" class="ng-binding">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/LiveBet.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/LiveBet.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Canlı Bahis
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible is-next" ng-repeat="menu in menuData" id="splide02-slide02" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
+                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible is-next" ng-repeat="menu in menuData" id="splide02-slide02" style="margin-right: 10px; width: calc(50% - 5px);" tabindex="0">
                             <a href="/sports/#!/prematch" class="ng-binding">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Bet.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Bet.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Bahis
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible" ng-repeat="menu in menuData" id="splide02-slide03" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
-                            <a href="https://www.neyine491.com/casino/#!/live-casino" class="ng-binding">
+                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope" ng-repeat="menu in menuData" id="splide02-slide03" style="margin-right: 10px; width: calc(50% - 5px);" aria-hidden="true">
+                            <a href="/casino/#!/live-casino" class="ng-binding" tabindex="-1">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/LiveCasino.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/LiveCasino.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Canlı Casino
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible" ng-repeat="menu in menuData" id="splide02-slide04" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
-                            <a href="/casino/#!/slots" class="ng-binding">
+                        </li><!-- end ngRepeat: menu in menuData -->
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Slots.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Slots.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Slotlar
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible" ng-repeat="menu in menuData" id="splide02-slide05" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
-                            <a href="/games/#!/aviator" class="ng-binding">
+                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope" ng-repeat="menu in menuData" id="splide02-slide05" style="margin-right: 10px; width: calc(50% - 5px);" aria-hidden="true">
+                            <a href="/games/#!/aviator" class="ng-binding" tabindex="-1">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Aviator.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Aviator.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Aviator
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope is-visible" ng-repeat="menu in menuData" id="splide02-slide06" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" tabindex="0">
-                            <a href="/games/#!/tombala" class="ng-binding">
+                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope" ng-repeat="menu in menuData" id="splide02-slide06" style="margin-right: 10px; width: calc(50% - 5px);" aria-hidden="true">
+                            <a href="/games/#!/tombala" class="ng-binding" tabindex="-1">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Bingo.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Bingo.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 Tombala
                             </a>
-                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope" ng-repeat="menu in menuData" id="splide02-slide07" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" aria-hidden="true">
+                        </li><!-- end ngRepeat: menu in menuData --><li class="splide__slide ng-scope" ng-repeat="menu in menuData" id="splide02-slide07" style="margin-right: 10px; width: calc(50% - 5px);" aria-hidden="true">
                             <a href="/games/#!/tvbet" class="ng-binding" tabindex="-1">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/TvBet.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/TvBet.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
                                 TVBet
                             </a>
                         </li><!-- end ngRepeat: menu in menuData -->
-                        <li class="splide__slide" id="splide02-slide08" style="margin-right: 10px; width: calc(16.6667% - 8.33333px);" aria-hidden="true">
                             <a href="/promotions/#!/list" class="ng-binding" tabindex="-1">
                                 <!-- ngIf: !isNewYearMode --><img ng-src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Promotions.png" ng-if="!isNewYearMode" class="mb-1 ng-scope" src="https://cdn.nagcdn.com/ngamingbase/neyine/assets/images/category_icons/Promotions.png"><!-- end ngIf: !isNewYearMode -->
                                 <!-- ngIf: isNewYearMode -->
@@ -787,7 +807,7 @@
 
     <!-- Popular Events & Live Events & Winning Coupons -->
     <!-- ngIf: widget.liveEvents.status --><div class="col-12 pt-3 order-6" ng-if="widget.liveEvents.status">
-        <div class="uk-child-width-1-3@m uk-grid-small uk-grid" uk-grid="">
+        <div class="uk-child-width-1-3@m uk-grid-small uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-first-column">
                 <live-events><div class="widget-events live">
     <h4 class="widget-title mt-3 ng-binding">Canlı Bahisler</h4>
@@ -799,7 +819,7 @@
     <div tabindex="-1" uk-slider="finite: false; autoplay:true;" class="uk-slider uk-slider-container">
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
-            <!-- ngIf: liveEventData && !noData --><ul class="uk-slider-items uk-child-width-1-1 ng-scope" ng-if="liveEventData &amp;&amp; !noData" style="transform: translate3d(-398.859px, 0px, 0px);">
+            <!-- ngIf: liveEventData && !noData --><ul class="uk-slider-items uk-child-width-1-1 ng-scope" ng-if="liveEventData &amp;&amp; !noData" style="transform: translate3d(-268.4px, 0px, 0px);">
                 <!-- ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="order: 1;">
                     <div class="uk-panel">
                         <div class="teams">
@@ -810,36 +830,36 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Gil Vicente Barcelos</p>
+                                    <p class="team-names ng-binding">Botafogo FR RJ</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">90'</span><!-- end ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">82'</span><!-- end ngIf: item.Mt -->
                                     <br>
                                     <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
-                                    <span class="ng-binding">2:2</span>
+                                    <span class="ng-binding">1:1</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">FC Arouca</p>
+                                    <p class="team-names ng-binding">EC Bahia BA</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/gil-vicente-barcelos-vs-fc-arouca/4551867" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/botafogo-fr-rj-vs-ec-bahia-ba/4589623" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">10.00</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/gil-vicente-barcelos-vs-fc-arouca/4551867" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">4.15</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/botafogo-fr-rj-vs-ec-bahia-ba/4589623" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">1.10</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/gil-vicente-barcelos-vs-fc-arouca/4551867" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">1.37</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/botafogo-fr-rj-vs-ec-bahia-ba/4589623" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">9.25</span>
+                                    <span class="ng-binding">7.25</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="order: 1;">
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -849,36 +869,36 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Sport Huancayo</p>
+                                    <p class="team-names ng-binding">Cuiaba EC MT</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">55'</span><!-- end ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">81'</span><!-- end ngIf: item.Mt -->
                                     <br>
                                     <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
-                                    <span class="ng-binding">1:0</span>
+                                    <span class="ng-binding">0:2</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Carlos Mannucci</p>
+                                    <p class="team-names ng-binding">SE Palmeiras SP</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/sport-huancayo-vs-carlos-mannucci/4577728" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cuiaba-ec-mt-vs-se-palmeiras-sp/4589625" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">1.18</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/sport-huancayo-vs-carlos-mannucci/4577728" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">100.00</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cuiaba-ec-mt-vs-se-palmeiras-sp/4589625" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">6.50</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/sport-huancayo-vs-carlos-mannucci/4577728" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">9.50</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cuiaba-ec-mt-vs-se-palmeiras-sp/4589625" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">27.00</span>
+                                    <span class="ng-binding">0.00</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="order: 1;">
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope uk-active" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -888,10 +908,49 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">CD Universidad Cesar Vallejo</p>
+                                    <p class="team-names ng-binding">Athletic Club Sjdr MG</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">42'</span><!-- end ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">51'</span><!-- end ngIf: item.Mt -->
+                                    <br>
+                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
+                                    <br>
+                                    <span class="ng-binding">0:0</span>
+                                </div>
+                                <div>
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
+                                    <p class="team-names ng-binding">Abc FC RN</p>
+                                </div>
+                            </div>
+
+                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/athletic-club-sjdr-mg-vs-abc-fc-rn/4589627" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">1</sub>
+                                    <span class="ng-binding">2.00</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/athletic-club-sjdr-mg-vs-abc-fc-rn/4589627" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">X</sub>
+                                    <span class="ng-binding">2.40</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/athletic-club-sjdr-mg-vs-abc-fc-rn/4589627" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">2</sub>
+                                    <span class="ng-binding">8.75</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
+                            </div>
+                        </div>
+                    </div>
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
+                    <div class="uk-panel">
+                        <div class="teams">
+                            <div class="event-info uk-child-width-1-1">
+                                <div class="uk-text-center ng-binding">Futbol</div>
+                            </div>
+
+                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
+                                <div class="uk-first-column">
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
+                                    <p class="team-names ng-binding">Seattle Sounders</p>
+                                </div>
+                                <div class="event-date">
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">19'</span><!-- end ngIf: item.Mt -->
                                     <br>
                                     <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">1. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
@@ -899,25 +958,25 @@
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Sporting Cristal</p>
+                                    <p class="team-names ng-binding">Los Angeles Galaxy</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universidad-cesar-vallejo-vs-sporting-cris/4615348" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/seattle-sounders-vs-los-angeles-galaxy/4438909" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">9.75</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universidad-cesar-vallejo-vs-sporting-cris/4615348" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">1.57</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/seattle-sounders-vs-los-angeles-galaxy/4438909" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">4.60</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universidad-cesar-vallejo-vs-sporting-cris/4615348" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">4.20</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/seattle-sounders-vs-los-angeles-galaxy/4438909" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">1.40</span>
+                                    <span class="ng-binding">6.50</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="order: 1;">
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -927,36 +986,36 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Kolombiya</p>
+                                    <p class="team-names ng-binding">Orlando Pride</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">15'</span><!-- end ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">48'</span><!-- end ngIf: item.Mt -->
                                     <br>
-                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">1. Devre</span><!-- end ngIf: item.Ms -->
+                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
                                     <span class="ng-binding">1:0</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Venezuela</p>
+                                    <p class="team-names ng-binding">Racing Louisville FC</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/kolombiya-vs-venezuela/4611700" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/orlando-pride-vs-racing-louisville-fc/4622566" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">1.20</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/kolombiya-vs-venezuela/4611700" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">1.27</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/orlando-pride-vs-racing-louisville-fc/4622566" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">7.75</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/kolombiya-vs-venezuela/4611700" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">5.50</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/orlando-pride-vs-racing-louisville-fc/4622566" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">17.00</span>
+                                    <span class="ng-binding">15.00</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="order: 1;">
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -966,36 +1025,36 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Leones FC U19</p>
+                                    <p class="team-names ng-binding">CD Cobreloa Calama</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">59'</span><!-- end ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">87'</span><!-- end ngIf: item.Mt -->
                                     <br>
                                     <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
-                                    <span class="ng-binding">1:1</span>
+                                    <span class="ng-binding">1:2</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Aguilas Doradas U19</p>
+                                    <p class="team-names ng-binding">CD Everton Vina Del Mar</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/leones-fc-u19-vs-aguilas-doradas-u19/4614249" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-cobreloa-calama-vs-cd-everton-vina-del-mar/4589658" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">3.20</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/leones-fc-u19-vs-aguilas-doradas-u19/4614249" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">12.50</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-cobreloa-calama-vs-cd-everton-vina-del-mar/4589658" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">2.45</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/leones-fc-u19-vs-aguilas-doradas-u19/4614249" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">3.10</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-cobreloa-calama-vs-cd-everton-vina-del-mar/4589658" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">3.25</span>
+                                    <span class="ng-binding">1.42</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1" style="">
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -1005,148 +1064,70 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Atletico FC</p>
+                                    <p class="team-names ng-binding">CSD Rangers</p>
+                                </div>
+                                <div class="event-date">
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">79'</span><!-- end ngIf: item.Mt -->
+                                    <br>
+                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
+                                    <br>
+                                    <span class="ng-binding">1:2</span>
+                                </div>
+                                <div>
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
+                                    <p class="team-names ng-binding">Curico Unido</p>
+                                </div>
+                            </div>
+
+                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/csd-rangers-vs-curico-unido/4590840" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">1</sub>
+                                    <span class="ng-binding">14.50</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/csd-rangers-vs-curico-unido/4590840" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">X</sub>
+                                    <span class="ng-binding">3.65</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/csd-rangers-vs-curico-unido/4590840" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">2</sub>
+                                    <span class="ng-binding">1.30</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
+                            </div>
+                        </div>
+                    </div>
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
+                    <div class="uk-panel">
+                        <div class="teams">
+                            <div class="event-info uk-child-width-1-1">
+                                <div class="uk-text-center ng-binding">Futbol</div>
+                            </div>
+
+                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
+                                <div class="uk-first-column">
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
+                                    <p class="team-names ng-binding">Independiente Santa Fe</p>
                                 </div>
                                 <div class="event-date">
                                     <!-- ngIf: item.Mt -->
                                     <br>
                                     <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">Devre Arasi</span><!-- end ngIf: item.Ms -->
                                     <br>
-                                    <span class="ng-binding">0:2</span>
+                                    <span class="ng-binding">0:0</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Tigres FC</p>
+                                    <p class="team-names ng-binding">CD Tolima</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atletico-fc-vs-tigres-fc/4597352" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-santa-fe-vs-cd-tolima/4626307" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">1.00</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atletico-fc-vs-tigres-fc/4597352" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">2.55</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-santa-fe-vs-cd-tolima/4626307" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">1.00</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atletico-fc-vs-tigres-fc/4597352" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">1.00</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
-                            </div>
-                        </div>
-                    </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope uk-active" tabindex="-1" style="">
-                    <div class="uk-panel">
-                        <div class="teams">
-                            <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Futbol</div>
-                            </div>
-
-                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
-                                <div class="uk-first-column">
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">CD Universitario II</p>
-                                </div>
-                                <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">45'</span><!-- end ngIf: item.Mt -->
-                                    <br>
-                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">1. Devre</span><!-- end ngIf: item.Ms -->
-                                    <br>
-                                    <span class="ng-binding">1:2</span>
-                                </div>
-                                <div>
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">CD Bocas FC</p>
-                                </div>
-                            </div>
-
-                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universitario-ii-vs-cd-bocas-fc/4617990" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">13.00</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universitario-ii-vs-cd-bocas-fc/4617990" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">5.80</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/cd-universitario-ii-vs-cd-bocas-fc/4617990" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">1.27</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
-                            </div>
-                        </div>
-                    </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
-                    <div class="uk-panel">
-                        <div class="teams">
-                            <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Futbol</div>
-                            </div>
-
-                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
-                                <div class="uk-first-column">
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Los Santos FC</p>
-                                </div>
-                                <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">15'</span><!-- end ngIf: item.Mt -->
-                                    <br>
-                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">1. Devre</span><!-- end ngIf: item.Ms -->
-                                    <br>
-                                    <span class="ng-binding">1:0</span>
-                                </div>
-                                <div>
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Veraguas United FC B</p>
-                                </div>
-                            </div>
-
-                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/los-santos-fc-vs-veraguas-united-fc-b/4619115" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">1.90</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/los-santos-fc-vs-veraguas-united-fc-b/4619115" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">4.05</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/los-santos-fc-vs-veraguas-united-fc-b/4619115" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">3.90</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
-                            </div>
-                        </div>
-                    </div>
-                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
-                    <div class="uk-panel">
-                        <div class="teams">
-                            <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Futbol</div>
-                            </div>
-
-                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
-                                <div class="uk-first-column">
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Galvez EC AC</p>
-                                </div>
-                                <div class="event-date">
-                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">45'</span><!-- end ngIf: item.Mt -->
-                                    <br>
-                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">1. Devre</span><!-- end ngIf: item.Ms -->
-                                    <br>
-                                    <span class="ng-binding">1:1</span>
-                                </div>
-                                <div>
-                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">AD Vasco Da Gama AC</p>
-                                </div>
-                            </div>
-
-                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/galvez-ec-ac-vs-ad-vasco-da-gama-ac/4611688" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">3.30</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/galvez-ec-ac-vs-ad-vasco-da-gama-ac/4611688" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">3.45</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/galvez-ec-ac-vs-ad-vasco-da-gama-ac/4611688" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
-                                    <sub class="ng-binding">2</sub>
                                     <span class="ng-binding">2.30</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-santa-fe-vs-cd-tolima/4626307" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">2</sub>
+                                    <span class="ng-binding">4.95</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
@@ -1161,31 +1142,70 @@
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
-                                    <p class="team-names ng-binding">Deportivo Santani</p>
+                                    <p class="team-names ng-binding">Independiente Medellin</p>
                                 </div>
                                 <div class="event-date">
-                                    <!-- ngIf: item.Mt -->
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">52'</span><!-- end ngIf: item.Mt -->
                                     <br>
-                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">Baslamadi</span><!-- end ngIf: item.Ms -->
+                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
                                     <br>
-                                    <span class="ng-binding"></span>
+                                    <span class="ng-binding">2:1</span>
                                 </div>
                                 <div>
                                     <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
-                                    <p class="team-names ng-binding">Club Fernando</p>
+                                    <p class="team-names ng-binding">International FC</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/deportivo-santani-vs-club-fernando/4611689" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-medellin-vs-international-fc/4628042" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">2.80</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/deportivo-santani-vs-club-fernando/4611689" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">1.37</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-medellin-vs-international-fc/4628042" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">3.45</span>
-                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/deportivo-santani-vs-club-fernando/4611689" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <span class="ng-binding">4.45</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/independiente-medellin-vs-international-fc/4628042" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">2.65</span>
+                                    <span class="ng-binding">12.50</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
+                            </div>
+                        </div>
+                    </div>
+                </li><!-- end ngIf: item.Od != '' --><!-- end ngRepeat: item in liveEventData| limitTo: 10 --><!-- ngIf: item.Od != '' --><li ng-repeat="item in liveEventData| limitTo: 10" ng-if="item.Od != ''" class="ng-scope" tabindex="-1">
+                    <div class="uk-panel">
+                        <div class="teams">
+                            <div class="event-info uk-child-width-1-1">
+                                <div class="uk-text-center ng-binding">Futbol</div>
+                            </div>
+
+                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
+                                <div class="uk-first-column">
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png">
+                                    <p class="team-names ng-binding">Atlante FC</p>
+                                </div>
+                                <div class="event-date">
+                                    <!-- ngIf: item.Mt --><span ng-if="item.Mt" class="ng-binding ng-scope">55'</span><!-- end ngIf: item.Mt -->
+                                    <br>
+                                    <!-- ngIf: item.Ms --><span ng-if="item.Ms" class="ng-binding ng-scope">2. Devre</span><!-- end ngIf: item.Ms -->
+                                    <br>
+                                    <span class="ng-binding">3:1</span>
+                                </div>
+                                <div>
+                                    <img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png" class="team-img" width="50" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/away_team_logo.png">
+                                    <p class="team-names ng-binding">CD Tapatio</p>
+                                </div>
+                            </div>
+
+                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
+                                <!-- ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atlante-fc-vs-cd-tapatio/4626981" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">1</sub>
+                                    <span class="ng-binding">1.03</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atlante-fc-vs-cd-tapatio/4626981" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">X</sub>
+                                    <span class="ng-binding">19.00</span>
+                                </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><a href="/sports/#!/live-detail/atlante-fc-vs-cd-tapatio/4626981" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.Od" ng-if="$index < 3">
+                                    <sub class="ng-binding">2</sub>
+                                    <span class="ng-binding">100.00</span>
                                 </a><!-- end ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od --><!-- ngIf: $index < 3 --><!-- end ngRepeat: odd in item.Od -->
                             </div>
                         </div>
@@ -1207,7 +1227,7 @@
 </live-events>
             </div>
 
-            <div>
+            <div class="uk-grid-margin uk-first-column">
                 <winning-coupon><div class="widget-events coupon">
     <h4 class="widget-title mt-3 ng-binding">Kazanan Kuponlar</h4>
 
@@ -1217,7 +1237,7 @@
     <!-- ngIf: winningCouponData && !winningCouponNoData --><div tabindex="-1" uk-slider="finite: false; autoplay:true; autoplay-interval:3000" ng-if="winningCouponData &amp;&amp; !winningCouponNoData" class="ng-scope uk-slider uk-slider-container">
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
-            <ul class="uk-slider-items uk-child-width-1-1" style="transform: translate3d(-398.859px, 0px, 0px);">
+            <ul class="uk-slider-items uk-child-width-1-1" style="transform: translate3d(-268.4px, 0px, 0px);">
                 <li tabindex="-1" class="uk-active" style="order: 1;">
                     <table class="uk-table uk-table-divider uk-table-small uk-table-striped">
                         <thead>
@@ -1230,29 +1250,29 @@
                         </thead>
                         <tbody>
                             <!-- ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">8,600.00 </td>
-                                <td class="ng-binding">18,060.00 </td>
-                                <!--<td class="">{{item.Id}}</td>-->
-                            </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
+                                <td class="ng-binding">05/05/2024</td>
                                 <td class="ng-binding">5,000.00 </td>
-                                <td class="ng-binding">10,750.00 </td>
+                                <td class="ng-binding">10,500.00 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
+                                <td class="ng-binding">05/05/2024</td>
                                 <td class="ng-binding">2,000.00 </td>
-                                <td class="ng-binding">3,880.00 </td>
+                                <td class="ng-binding">8,040.00 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">1,133.00 </td>
-                                <td class="ng-binding">3,002.45 </td>
-                                <!--<td class="">{{item.Id}}</td>-->
-                            </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
+                                <td class="ng-binding">05/05/2024</td>
                                 <td class="ng-binding">1,000.00 </td>
-                                <td class="ng-binding">1,750.00 </td>
+                                <td class="ng-binding">6,480.00 </td>
+                                <!--<td class="">{{item.Id}}</td>-->
+                            </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">938.00 </td>
+                                <td class="ng-binding">5,487.30 </td>
+                                <!--<td class="">{{item.Id}}</td>-->
+                            </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? false : true --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? false : true" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">2,000.00 </td>
+                                <td class="ng-binding">5,420.00 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: item in winningCouponData -->
                         </tbody>
@@ -1271,29 +1291,29 @@
                         </thead>
                         <tbody>
                             <!-- ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">7,000.00 </td>
-                                <td class="ng-binding">35,910.00 </td>
-                                <!--<td class="">{{item.Id}}</td>-->
-                            </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">10,000.00 </td>
-                                <td class="ng-binding">14,800.00 </td>
-                                <!--<td class="">{{item.Id}}</td>-->
-                            </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
+                                <td class="ng-binding">05/05/2024</td>
                                 <td class="ng-binding">3,000.00 </td>
-                                <td class="ng-binding">5,850.00 </td>
+                                <td class="ng-binding">13,050.00 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">1,888.00 </td>
-                                <td class="ng-binding">3,115.20 </td>
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">999.00 </td>
+                                <td class="ng-binding">9,640.35 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
-                                <td class="ng-binding">26/04/2024</td>
-                                <td class="ng-binding">1,500.00 </td>
-                                <td class="ng-binding">2,130.00 </td>
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">1,000.00 </td>
+                                <td class="ng-binding">6,760.00 </td>
+                                <!--<td class="">{{item.Id}}</td>-->
+                            </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">2,950.00 </td>
+                                <td class="ng-binding">6,372.00 </td>
+                                <!--<td class="">{{item.Id}}</td>-->
+                            </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><tr ng-repeat="item in winningCouponData" ng-if="$index % 2 == 0 ? true : false" uk-toggle="target: #winning-coupon-detail-modal" ng-click="winCouponWidgetModal($event, item.Id)" class="ng-scope" aria-expanded="false">
+                                <td class="ng-binding">05/05/2024</td>
+                                <td class="ng-binding">2,000.00 </td>
+                                <td class="ng-binding">5,440.00 </td>
                                 <!--<td class="">{{item.Id}}</td>-->
                             </tr><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: item in winningCouponData -->
                         </tbody>
@@ -1331,7 +1351,7 @@
 </div></winning-coupon>
             </div>
 
-            <div>
+            <div class="uk-grid-margin uk-first-column">
                 <popular-events><div class="widget-events popular">
     <h4 class="widget-title mt-3 ng-binding">Öne Çıkarılan Bahisler</h4>
     <div class="widget-title-background"></div>
@@ -1342,47 +1362,47 @@
     <div tabindex="-1" uk-slider="finite: false; autoplay:true;" class="uk-slider uk-slider-container">
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1">
 
-            <!-- ngIf: popularEventData && !noData --><ul class="uk-slider-items uk-child-width-1-1 ng-scope" ng-if="popularEventData &amp;&amp; !noData" style="transform: translate3d(-398.859px, 0px, 0px);">
-                <!-- ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1" style="">
+            <!-- ngIf: popularEventData && !noData --><ul class="uk-slider-items uk-child-width-1-1 ng-scope" ng-if="popularEventData &amp;&amp; !noData" style="transform: translate3d(-268.4px, 0px, 0px);">
+                <!-- ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1" style="order: 1;">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Kanada Premier Lig</div>
+                                <div class="uk-text-center ng-binding">Division de Honor, Açılış</div>
                             </div>
 
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
-                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/543891.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/543891.png"><!-- end ngIf: item.HomeId -->
+                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/36439.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/36439.png"><!-- end ngIf: item.HomeId -->
                                     <!-- ngIf: !item.HomeId -->
-                                    <p class="team-names ng-binding">York United FC</p>
+                                    <p class="team-names ng-binding">Sol De America</p>
                                 </div>
                                 <div class="event-date ng-binding">
-                                    27/04/2024
+                                    06/05/2024
                                     <br>
-                                    02:00
+                                    02:30
                                 </div>
                                 <div>
-                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/986603.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/986603.png"><!-- end ngIf: item.AwayId -->
+                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/5992.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/5992.png"><!-- end ngIf: item.AwayId -->
                                     <!-- ngIf: !item.AwayId -->
-                                    <p class="team-names ng-binding">Vancouver FC</p>
+                                    <p class="team-names ng-binding">CS 2 de Mayo</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=York United FC" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
+                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Sol De America" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">2.18</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=York United FC" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">2.80</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Sol De America" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">3.32</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=York United FC" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">2.92</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Sol De America" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">2.71</span>
+                                    <span class="ng-binding">2.46</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope uk-active" tabindex="-1" style="">
+                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
@@ -1396,105 +1416,66 @@
                                     <p class="team-names ng-binding">O´higgins</p>
                                 </div>
                                 <div class="event-date ng-binding">
-                                    27/04/2024
+                                    06/05/2024
                                     <br>
-                                    02:00
+                                    03:00
                                 </div>
                                 <div>
-                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/3153.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/3153.png"><!-- end ngIf: item.AwayId -->
+                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/3162.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/3162.png"><!-- end ngIf: item.AwayId -->
                                     <!-- ngIf: !item.AwayId -->
-                                    <p class="team-names ng-binding">Union Espanola</p>
+                                    <p class="team-names ng-binding">Audax Italiano</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
                                 <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=O´higgins" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">2.10</span>
+                                    <span class="ng-binding">2.32</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=O´higgins" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">3.19</span>
+                                    <span class="ng-binding">3.05</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=O´higgins" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">3.17</span>
+                                    <span class="ng-binding">2.90</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds -->
                             </div>
                         </div>
                     </div>
-                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1" style="">
+                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope uk-active" tabindex="-1">
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Brasilero Seri B</div>
+                                <div class="uk-text-center ng-binding">Segunda Division</div>
                             </div>
 
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
-                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/1972.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/1972.png"><!-- end ngIf: item.HomeId -->
-                                    <!-- ngIf: !item.HomeId -->
-                                    <p class="team-names ng-binding">Guarani FC SP</p>
+                                    <!-- ngIf: item.HomeId -->
+                                    <!-- ngIf: !item.HomeId --><img ng-src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png" class="team-img ng-scope" alt="" ng-if="!item.HomeId" style="max-height:50px;" src="https://cdn.nagcdn.com/ngamingbase/core/assets/images/home_team_logo2.png"><!-- end ngIf: !item.HomeId -->
+                                    <p class="team-names ng-binding">San Antonio Unido</p>
                                 </div>
                                 <div class="event-date ng-binding">
-                                    27/04/2024
+                                    06/05/2024
                                     <br>
                                     03:00
                                 </div>
                                 <div>
-                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/21845.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/21845.png"><!-- end ngIf: item.AwayId -->
+                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/573181.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/573181.png"><!-- end ngIf: item.AwayId -->
                                     <!-- ngIf: !item.AwayId -->
-                                    <p class="team-names ng-binding">Chapecoense SC</p>
+                                    <p class="team-names ng-binding">Real San Joaquin</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Guarani FC SP" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
+                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=San Antonio Unido" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">2.08</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Guarani FC SP" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">2.01</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=San Antonio Unido" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">2.91</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Guarani FC SP" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">3.08</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=San Antonio Unido" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">3.54</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds -->
-                            </div>
-                        </div>
-                    </div>
-                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1" style="">
-                    <div class="uk-panel">
-                        <div class="teams">
-                            <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Brasilero Seri B</div>
-                            </div>
-
-                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
-                                <div class="uk-first-column">
-                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/2025.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/2025.png"><!-- end ngIf: item.HomeId -->
-                                    <!-- ngIf: !item.HomeId -->
-                                    <p class="team-names ng-binding">Ituano FC SP</p>
-                                </div>
-                                <div class="event-date ng-binding">
-                                    27/04/2024
-                                    <br>
-                                    01:00
-                                </div>
-                                <div>
-                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/39634.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/39634.png"><!-- end ngIf: item.AwayId -->
-                                    <!-- ngIf: !item.AwayId -->
-                                    <p class="team-names ng-binding">Operario Ferroviario EC PR</p>
-                                </div>
-                            </div>
-
-                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Ituano FC SP" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
-                                    <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">2.52</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Ituano FC SP" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
-                                    <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">2.82</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Ituano FC SP" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
-                                    <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">2.81</span>
+                                    <span class="ng-binding">3.24</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds -->
                             </div>
                         </div>
@@ -1503,37 +1484,76 @@
                     <div class="uk-panel">
                         <div class="teams">
                             <div class="event-info uk-child-width-1-1">
-                                <div class="uk-text-center ng-binding">Brasilero Seri B</div>
+                                <div class="uk-text-center ng-binding">U20 CONMEBOL Şampiyonası, Kadınlar</div>
                             </div>
 
                             <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
                                 <div class="uk-first-column">
-                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/1959.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/1959.png"><!-- end ngIf: item.HomeId -->
+                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/48978.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/48978.png"><!-- end ngIf: item.HomeId -->
                                     <!-- ngIf: !item.HomeId -->
-                                    <p class="team-names ng-binding">SC Recife PE</p>
+                                    <p class="team-names ng-binding">Venezuela</p>
                                 </div>
                                 <div class="event-date ng-binding">
-                                    27/04/2024
+                                    06/05/2024
                                     <br>
-                                    01:00
+                                    02:30
                                 </div>
                                 <div>
-                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/2021.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/2021.png"><!-- end ngIf: item.AwayId -->
+                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/48992.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/48992.png"><!-- end ngIf: item.AwayId -->
                                     <!-- ngIf: !item.AwayId -->
-                                    <p class="team-names ng-binding">Vila Nova FC GO</p>
+                                    <p class="team-names ng-binding">Arjantin</p>
                                 </div>
                             </div>
 
                             <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
-                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=SC Recife PE" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
+                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Venezuela" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">1</sub>
-                                    <span class="ng-binding">1.61</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=SC Recife PE" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">2.56</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Venezuela" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">X</sub>
-                                    <span class="ng-binding">3.48</span>
-                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=SC Recife PE" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <span class="ng-binding">3.11</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Venezuela" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
                                     <sub class="ng-binding">2</sub>
-                                    <span class="ng-binding">5.10</span>
+                                    <span class="ng-binding">2.39</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds -->
+                            </div>
+                        </div>
+                    </div>
+                </li><!-- end ngRepeat: item in popularEventData --><li ng-repeat="item in popularEventData" class="ng-scope" tabindex="-1">
+                    <div class="uk-panel">
+                        <div class="teams">
+                            <div class="event-info uk-child-width-1-1">
+                                <div class="uk-text-center ng-binding">Ulusal Kadınlar Futbol Ligi</div>
+                            </div>
+
+                            <div class="uk-child-width-expand uk-position-relative mt-0 uk-grid" uk-grid="">
+                                <div class="uk-first-column">
+                                    <!-- ngIf: item.HomeId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/1100237.png" class="team-img ng-scope" alt="" ng-if="item.HomeId" src="https://img-cdn001.akamaized.net/ls/crest/medium/1100237.png"><!-- end ngIf: item.HomeId -->
+                                    <!-- ngIf: !item.HomeId -->
+                                    <p class="team-names ng-binding">Bay FC</p>
+                                </div>
+                                <div class="event-date ng-binding">
+                                    06/05/2024
+                                    <br>
+                                    03:00
+                                </div>
+                                <div>
+                                    <!-- ngIf: item.AwayId --><img ng-src="https://img-cdn001.akamaized.net/ls/crest/medium/34714.png" class="team-img ng-scope" alt="" ng-if="item.AwayId" src="https://img-cdn001.akamaized.net/ls/crest/medium/34714.png"><!-- end ngIf: item.AwayId -->
+                                    <!-- ngIf: !item.AwayId -->
+                                    <p class="team-names ng-binding">Chicago Red Stars</p>
+                                </div>
+                            </div>
+
+                            <div class="rates uk-child-width-expand mt-0 uk-grid" uk-grid="">
+                                <!-- ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Bay FC" class="bet-btn uk-button ng-scope uk-first-column" ng-repeat="odd in item.ShortOdds">
+                                    <sub class="ng-binding">1</sub>
+                                    <span class="ng-binding">1.70</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Bay FC" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <sub class="ng-binding">X</sub>
+                                    <span class="ng-binding">3.88</span>
+                                </a><!-- end ngRepeat: odd in item.ShortOdds --><a href="/sports/#!/prematch?search=Bay FC" class="bet-btn uk-button ng-scope" ng-repeat="odd in item.ShortOdds">
+                                    <sub class="ng-binding">2</sub>
+                                    <span class="ng-binding">3.54</span>
                                 </a><!-- end ngRepeat: odd in item.ShortOdds -->
                             </div>
                         </div>
@@ -1564,18 +1584,18 @@
         </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/uluslararasi-kulupler/294/uefa-sampiyonlar-ligi/14?comingHour=All" class="league ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
             <i class="flag flag-"></i>
             UEFA Şampiyonlar Ligi
-        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/ispanya/31/laliga/25?comingHour=All" class="league ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
+        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/ispanya/31/laliga/25?comingHour=All" class="league ng-binding ng-scope uk-grid-margin uk-first-column" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
             <i class="flag flag-esp"></i>
             LaLiga
-        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/almanya/29/bundesliga/31?comingHour=All" class="league ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
+        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/almanya/29/bundesliga/31?comingHour=All" class="league ng-binding ng-scope uk-grid-margin" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
             <i class="flag flag-deu"></i>
             Bundesliga
-        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/turkiye/45/super-lig/46?comingHour=All" class="league ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
+        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/turkiye/45/super-lig/46?comingHour=All" class="league ng-binding ng-scope uk-grid-margin uk-first-column" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
             <i class="flag flag-tur"></i>
             Süper Lig
-        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/turkiye/45/1-lig/72?comingHour=All" class="league ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
-            <i class="flag flag-tur"></i>
-            1. Lig
+        </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><a href="/sports/#!/prematch/futbol/1/uluslararasi-kulupler/294/uefa-avrupa-ligi/1931?comingHour=All" class="league ng-binding ng-scope uk-grid-margin" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? true : false">
+            <i class="flag flag-"></i>
+            UEFA Avrupa Ligi
         </a><!-- end ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? true : false --><!-- end ngRepeat: league in fleagues | limitTo:12 -->
     </div>
 
@@ -1586,18 +1606,18 @@
         </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/italya/30/serie-a/22?comingHour=All" class="league alt ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
             <i class="flag flag-ita"></i>
             Serie A
-        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/hollanda/34/eredivisie/28?comingHour=All" class="league alt ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
+        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/hollanda/34/eredivisie/28?comingHour=All" class="league alt ng-binding ng-scope uk-grid-margin uk-first-column" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
             <i class="flag flag-nld"></i>
             Eredivisie
-        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/portekiz/43/liga-portugal/39?comingHour=All" class="league alt ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
+        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/portekiz/43/liga-portugal/39?comingHour=All" class="league alt ng-binding ng-scope uk-grid-margin" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
             <i class="flag flag-prt"></i>
             Liga Portugal
-        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/brezilya/12/brasilero-serie-a/60?comingHour=All" class="league alt ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
+        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/brezilya/12/brasilero-serie-a/60?comingHour=All" class="league alt ng-binding ng-scope uk-grid-margin uk-first-column" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
             <i class="flag flag-bra"></i>
             Brasilero Serie A
-        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/uluslararasi-kulupler/294/uefa-avrupa-ligi/1931?comingHour=All" class="league alt ng-binding ng-scope" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
+        </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 --><!-- ngIf: $index % 2 == 0 ? false : true --><a href="/sports/#!/prematch/futbol/1/uluslararasi-kulupler/294/uefa-avrupa-konferans-ligi/45671?comingHour=All" class="league alt ng-binding ng-scope uk-grid-margin" ng-repeat="league in fleagues | limitTo:12" ng-if="$index % 2 == 0 ? false : true">
             <i class="flag flag-"></i>
-            UEFA Avrupa Ligi
+            UEFA Avrupa Konferans Ligi
         </a><!-- end ngIf: $index % 2 == 0 ? false : true --><!-- end ngRepeat: league in fleagues | limitTo:12 -->
     </div>
 
@@ -1609,102 +1629,57 @@
     <!-- Promotions -->
     <!-- ngIf: widget.promotions.status -->
 
-    <!-- Slots -->
-    <!-- ngIf: widget.slotGames.status --><div class="uk-child-width-1-1 uk-width-1-1 order-3" ng-if="widget.slotGames.status">
-        <slot-games-widget><h4 class="main-page-title mt-3 ng-binding">Slotlar</h4>
 
-<div class="widget-slots uk-width-1-1 uk-grid uk-grid-stack" uk-grid="">
-    <!-- ngIf: !slotsLoading --><div class="game-list uk-width-expand uk-child-width-1-2 uk-child-width-1-4@s uk-child-width-1-4@m uk-child-width-1-4@l m-0 ng-scope uk-grid uk-first-column" ng-if="!slotsLoading" uk-grid="">
-        <!-- ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item uk-first-column" ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=12631&amp;mode=false&amp;type=s&amp;name=Big Bass Splash" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs10txbigbass.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs10txbigbass.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs10txbigbass.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs10txbigbass.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=9443&amp;mode=false&amp;type=s&amp;name=Wild Wild Riches" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs576treasures.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs576treasures.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+<title>Fotoğraf Galerisi</title>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs576treasures.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs576treasures.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=15742&amp;mode=false&amp;type=s&amp;name=Saray Ruyasi" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20dede.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20dede.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+ <!-- oturtma -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fotoğraf Galerisi</title>
+<style>
+  .photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20dede.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20dede.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=12648&amp;mode=false&amp;type=s&amp;name=Sugar Rush" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrush.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrush.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+<div class="photo-container">
+  <a href="https://example.com/link1">
+    <img class="photo" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20starlight.png" alt="Fotoğraf 1">
+  </a>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrush.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrush.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item uk-grid-margin uk-first-column" ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=16161&amp;mode=false&amp;type=s&amp;name=Sugar Rush 1000" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrushx.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrushx.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+  <a href="https://example.com/link2">
+    <img class="photo" src="https://api.pragmaticplay.net/game_pic/rec/325/vs576treasures.png" alt="Fotoğraf 2">
+  </a>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrushx.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20sugarrushx.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=13514&amp;mode=false&amp;type=s&amp;name=Wild Wild Riches Megaways" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vswayswwriches.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vswayswwriches.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+  <a href="https://example.com/link3">
+    <img class="photo" src="https://api.pragmaticplay.net/game_pic/rec/325/vswaysrhino.png" alt="Fotoğraf 3">
+  </a>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vswayswwriches.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vswayswwriches.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=9496&amp;mode=false&amp;type=s&amp;name=Mustang Gold" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs25mustang.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs25mustang.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+  <a href="https://example.com/link4">
+    <img class="photo" src="https://api.pragmaticplay.net/game_pic/rec/325/vs12bbb.png" alt="Fotoğraf 4">
+  </a>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs25mustang.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs25mustang.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerSlotGames | limitTo:8">
-            <a href="/casino/#!/game?productId=61&amp;gameId=13086&amp;mode=false&amp;type=s&amp;name=Muertos Multiplier Megaways" class="uk-visible@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20muertos.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20muertos.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
+  <a href="https://example.com/link5">
+    <img class="photo" src="https://api.pragmaticplay.net/game_pic/rec/325/vs15godsofwar.png" alt="Fotoğraf 5">
+  </a>
+</div>
 
-            <a href="javascript:;" ng-click="openGame(item,false);" class="uk-hidden@s">
-                <img img-preload="" ng-src="https://api.pragmaticplay.net/game_pic/rec/325/vs20muertos.png" src="https://api.pragmaticplay.net/game_pic/rec/325/vs20muertos.png">
-                <b class="ng-binding">Pragmatic Play</b>
-            </a>
-        </div><!-- end ngRepeat: item in populerSlotGames | limitTo:8 -->
-    </div><!-- end ngIf: !slotsLoading -->
-
-    <!-- ngIf: !slotsLoading -->
-<!-- end ngIf: !slotsLoading -->
-
-    <!-- loading -->
-    <!-- ngIf: (!populerSlotGames && !noData) || slotsLoading -->
-</div></slot-games-widget>
-    </div><!-- end ngIf: widget.slotGames.status -->
+</body>
+</html>
+ <!-- oturtma -->
+<!-- end ngIf: widget.slotGames.status -->
 
     <!-- Live Casino -->
     <!-- ngIf: widget.liveCasino.status --><div class="uk-child-width-1-1 uk-width-1-1 order-4" ng-if="widget.liveCasino.status">
@@ -1713,105 +1688,117 @@
 <div class="widget-slots uk-width-1-1 uk-grid uk-grid-stack" uk-grid="">
     <!-- ngIf: !casinoLoading --><div class="game-list uk-width-expand uk-child-width-1-2 uk-child-width-1-4@s uk-child-width-1-4@m uk-child-width-1-4@l m-0 ng-scope uk-grid uk-first-column" ng-if="!casinoLoading" uk-grid="">
         <!-- ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-first-column" ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=60&amp;gameId=345375&amp;mode=false&amp;type=l&amp;name=Live - Sweet Bonanza CandyLand" class="uk-visible@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.47384406631744">
+            <a href="/casino/#!/game?productId=60&amp;gameId=347016&amp;mode=false&amp;type=l&amp;name=VD Casino Roulette" class="uk-visible@s">
+                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/chroma229rwltr22/ppcds00000004145/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/chroma229rwltr22/ppcds00000004145/poster.jpg?v0.6667823792888983">
                 <b class="ng-binding">Pragmatic Play</b>
+                <span class="ng-binding">Rulet</span>
+            </a>
+
+            <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
+                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/chroma229rwltr22/ppcds00000004145/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/chroma229rwltr22/ppcds00000004145/poster.jpg?v0.6667823792888983">
+                <b class="ng-binding">Pragmatic Play</b>
+                <span class="ng-binding">Rulet</span>
+            </a>
+        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item" ng-repeat="item in populerCasinoGames | limitTo:8">
+            <a href="/casino/#!/game?productId=80&amp;gameId=236390&amp;mode=false&amp;type=l&amp;name=Deal or No Deal" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/Evolution/evo_dealnodeal.jpg" src="https://cdn.hub88.io/Evolution/evo_dealnodeal.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Casino Holdem</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
+                <img ng-src="https://cdn.hub88.io/Evolution/evo_dealnodeal.jpg" src="https://cdn.hub88.io/Evolution/evo_dealnodeal.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Casino Holdem</span>
             </a>
-        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=80&amp;gameId=236398&amp;mode=false&amp;type=l&amp;name=First Person Blackjack Lobby" class="uk-visible@s">
-                <img ng-src="https://cdn.hub88.io/evolution/evo_firstpersonblackjacklobby.jpg" src="https://cdn.hub88.io/evolution/evo_firstpersonblackjacklobby.jpg">
+        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin uk-first-column" ng-repeat="item in populerCasinoGames | limitTo:8">
+            <a href="/casino/#!/game?productId=80&amp;gameId=236447&amp;mode=false&amp;type=l&amp;name=Blackjack Silver G" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_liveblackjacksilver7.jpg" src="https://cdn.hub88.io/evolution/evo_liveblackjacksilver7.jpg">
                 <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Blackjack</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://cdn.hub88.io/evolution/evo_firstpersonblackjacklobby.jpg" src="https://cdn.hub88.io/evolution/evo_firstpersonblackjacklobby.jpg">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_liveblackjacksilver7.jpg" src="https://cdn.hub88.io/evolution/evo_liveblackjacksilver7.jpg">
                 <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Blackjack</span>
             </a>
-        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=80&amp;gameId=347005&amp;mode=false&amp;type=l&amp;name=Teen Patti" class="uk-visible@s">
-                <img ng-src="https://cdn.hub88.io/evolution/evo_teenpatti.jpg" src="https://cdn.hub88.io/evolution/evo_teenpatti.jpg">
+        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerCasinoGames | limitTo:8">
+            <a href="/casino/#!/game?productId=80&amp;gameId=428853&amp;mode=false&amp;type=l&amp;name=Bonsai Speed Baccarat C" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_bonsaispeedbaccaratcc.jpg" src="https://cdn.hub88.io/evolution/evo_bonsaispeedbaccaratcc.jpg">
                 <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Rulet</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://cdn.hub88.io/evolution/evo_teenpatti.jpg" src="https://cdn.hub88.io/evolution/evo_teenpatti.jpg">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_bonsaispeedbaccaratcc.jpg" src="https://cdn.hub88.io/evolution/evo_bonsaispeedbaccaratcc.jpg">
                 <b class="ng-binding">Evolution Gaming</b>
-                <span class="ng-binding">Rulet</span>
-            </a>
-        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item " ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=60&amp;gameId=347026&amp;mode=false&amp;type=l&amp;name=Live - PowerUp Roulette" class="uk-visible@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/powruprw1qm3xc25/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/powruprw1qm3xc25/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
-                <span class="ng-binding">Rulet</span>
-            </a>
-
-            <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/powruprw1qm3xc25/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/powruprw1qm3xc25/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
                 <span class="ng-binding">Rulet</span>
             </a>
         </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin uk-first-column" ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=60&amp;gameId=411352&amp;mode=false&amp;type=l&amp;name=Speed Blackjack 21 - Emerald" class="uk-visible@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/sobj253blackjack/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/sobj253blackjack/poster.jpg?v0.47384406631744">
+            <a href="/casino/#!/game?productId=60&amp;gameId=345375&amp;mode=false&amp;type=l&amp;name=Live - Sweet Bonanza CandyLand" class="uk-visible@s">
+                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.6667823792888983">
                 <b class="ng-binding">Pragmatic Play</b>
+                <span class="ng-binding">Casino Holdem</span>
+            </a>
+
+            <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
+                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/pbvzrfk1fyft4dwe/poster.jpg?v0.6667823792888983">
+                <b class="ng-binding">Pragmatic Play</b>
+                <span class="ng-binding">Casino Holdem</span>
+            </a>
+        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerCasinoGames | limitTo:8">
+            <a href="/casino/#!/game?productId=80&amp;gameId=294862&amp;mode=false&amp;type=l&amp;name=Blackjack VIP 16" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_blackjackvip16.jpg" src="https://cdn.hub88.io/evolution/evo_blackjackvip16.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Blackjack</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/sobj253blackjack/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/sobj253blackjack/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
+                <img ng-src="https://cdn.hub88.io/evolution/evo_blackjackvip16.jpg" src="https://cdn.hub88.io/evolution/evo_blackjackvip16.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Blackjack</span>
             </a>
-        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=43&amp;gameId=574&amp;mode=false&amp;type=l&amp;name=Andar Bahar" class="uk-visible@s">
-                <img ng-src="https://cdn.nagcdn.com/gstatic/games/ezugi/andar_bahar.jpg" src="https://cdn.nagcdn.com/gstatic/games/ezugi/andar_bahar.jpg">
-                <b class="ng-binding">Ezugi</b>
-                <span class="ng-binding">Andar Bahar</span>
-            </a>
-
-            <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://cdn.nagcdn.com/gstatic/games/ezugi/andar_bahar.jpg" src="https://cdn.nagcdn.com/gstatic/games/ezugi/andar_bahar.jpg">
-                <b class="ng-binding">Ezugi</b>
-                <span class="ng-binding">Andar Bahar</span>
-            </a>
-        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=49&amp;gameId=435481&amp;mode=false&amp;type=l&amp;name=Montecarlo 2 Baccarat" class="uk-visible@s">
-                <img ng-src="https://cdn.nagcdn.com/gstatic/games/vivogaming/montecarlo_2_baccarat.jpg" src="https://cdn.nagcdn.com/gstatic/games/vivogaming/montecarlo_2_baccarat.jpg">
-                <b class="ng-binding">VivoGaming</b>
+        </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin uk-first-column" ng-repeat="item in populerCasinoGames | limitTo:8">
+            <a href="/casino/#!/game?productId=80&amp;gameId=236468&amp;mode=false&amp;type=l&amp;name=Speed Baccarat D" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_livespeedbaccaratd.jpg" src="https://cdn.hub88.io/evolution/evo_livespeedbaccaratd.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Baccarat</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://cdn.nagcdn.com/gstatic/games/vivogaming/montecarlo_2_baccarat.jpg" src="https://cdn.nagcdn.com/gstatic/games/vivogaming/montecarlo_2_baccarat.jpg">
-                <b class="ng-binding">VivoGaming</b>
+                <img ng-src="https://cdn.hub88.io/evolution/evo_livespeedbaccaratd.jpg" src="https://cdn.hub88.io/evolution/evo_livespeedbaccaratd.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
                 <span class="ng-binding">Baccarat</span>
             </a>
         </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 --><div class="game-item uk-grid-margin" ng-repeat="item in populerCasinoGames | limitTo:8">
-            <a href="/casino/#!/game?productId=60&amp;gameId=210596&amp;mode=false&amp;type=l&amp;name=Live - Mega Roulette" class="uk-visible@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/1hl65ce1lxuqdrkr/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/1hl65ce1lxuqdrkr/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
-                <span class="ng-binding">Rulet</span>
+            <a href="/casino/#!/game?productId=80&amp;gameId=236482&amp;mode=false&amp;type=l&amp;name=No Comm Speed Baccarat B" class="uk-visible@s">
+                <img ng-src="https://cdn.hub88.io/evolution/evo_nocommspeedbaccaratb.jpg" src="https://cdn.hub88.io/evolution/evo_nocommspeedbaccaratb.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
+                <span class="ng-binding">Baccarat</span>
             </a>
 
             <a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s">
-                <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/1hl65ce1lxuqdrkr/poster.jpg?v0.47384406631744" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/1hl65ce1lxuqdrkr/poster.jpg?v0.47384406631744">
-                <b class="ng-binding">Pragmatic Play</b>
-                <span class="ng-binding">Rulet</span>
+                <img ng-src="https://cdn.hub88.io/evolution/evo_nocommspeedbaccaratb.jpg" src="https://cdn.hub88.io/evolution/evo_nocommspeedbaccaratb.jpg">
+                <b class="ng-binding">Evolution Gaming</b>
+                <span class="ng-binding">Baccarat</span>
             </a>
         </div><!-- end ngRepeat: item in populerCasinoGames | limitTo:8 -->
     </div><!-- end ngIf: !casinoLoading -->
 
-    <!-- ngIf: !casinoLoading --><!-- end ngIf: !casinoLoading -->
+    <!-- ngIf: !casinoLoading --><div class="featured-game uk-width-1-1 uk-width-1-3@l uk-width-1-3@m uk-width-1-3@s ng-scope uk-grid-margin uk-first-column" ng-if="!casinoLoading">
+        <!-- ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><a href="/casino/#!/game?productId=60&amp;gameId=364525&amp;mode=false&amp;type=l&amp;name=Blackjack 24 - Azure" ng-repeat="item in populerCasinoGames" ng-if="$index == 9 &amp;&amp; item.ProductId != 2" class="uk-visible@s ng-scope">
+            <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/bas2sgk7ph2ybj24/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/bas2sgk7ph2ybj24/poster.jpg?v0.6667823792888983">
+            <b class="ng-binding">Pragmatic Play</b>
+            <span class="ng-binding">Rulet</span>
+        </a><!-- end ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames -->
+
+        <!-- ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><a href="javascript:;" ng-click="openCasinoGame(item)" class="uk-hidden@s ng-scope" ng-repeat="item in populerCasinoGames" ng-if="$index == 9 &amp;&amp; item.ProductId != 2">
+            <img ng-src="https://client.pragmaticplaylive.net/desktop/assets/snaps/bas2sgk7ph2ybj24/poster.jpg?v0.6667823792888983" src="https://client.pragmaticplaylive.net/desktop/assets/snaps/bas2sgk7ph2ybj24/poster.jpg?v0.6667823792888983">
+            <b class="ng-binding">Pragmatic Play</b>
+            <span class="ng-binding">Rulet</span>
+        </a><!-- end ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames --><!-- ngIf: $index == 9 && item.ProductId != 2 --><!-- end ngRepeat: item in populerCasinoGames -->
+    </div><!-- end ngIf: !casinoLoading -->
 
     <!-- loading -->
     <!-- ngIf: (!populerCasinoGames && !noData) || casinoLoading -->
@@ -1824,7 +1811,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-</style>
+</style></div>
 
             <!-- Site Footer -->
             <!-- ngInclude: undefined --><ng-include src="footerTemplateUrl" class="uk-padding-remove ng-scope" ng-controller="FooterCtrl"><footer class="ng-scope">
@@ -1887,8 +1874,8 @@
         </div>
     </div>
 </footer></ng-include>
-        
-    
+        </div>
+    </div>
 
     <!-- Site Bundles -->
     <script type="text/javascript" async="" src="https://vue.comm100.com/livechat.ashx?siteId=90004033"></script><script src="https://cdn.nagcdn.com/_ngamingbase/core/assets/scripts/libs/uikit.min.js"></script>
@@ -1907,7 +1894,11 @@
     <script src="https://cdn.nagcdn.com/_ngamingbase/neyine/settings.js?v=22"></script>
 
 <!--Begin Comm100 Live Chat Code-->
+<div id="comm100-button-629e23b4-1b00-41be-8d09-ad74385b838e"><iframe allowfullscreen="1" allow="microphone;camera;midi;encrypted-media" title="Sohbet düğmesi" lang="tr" style="border: none; width: 110px; height: 110px; position: fixed; right: 0px; bottom: 0px; z-index: 2147483642; display: block;"></iframe></div>
+<script type="text/javascript">
+  var Comm100API=Comm100API||{};(function(t){function e(e){var a=document.createElement("script"),c=document.getElementsByTagName("script")[0];a.type="text/javascript",a.async=!0,a.src=e+t.site_id,c.parentNode.insertBefore(a,c)}t.chat_buttons=t.chat_buttons||[],t.chat_buttons.push({code_plan:"629e23b4-1b00-41be-8d09-ad74385b838e",div_id:"comm100-button-629e23b4-1b00-41be-8d09-ad74385b838e"}),t.site_id=90004033,t.main_code_plan="629e23b4-1b00-41be-8d09-ad74385b838e",e("https://vue.comm100.com/livechat.ashx?siteId="),setTimeout(function(){t.loaded||e("https://standby.comm100vue.com/livechat.ashx?siteId=")},5e3)})(Comm100API||{})
+</script>
 <!--End Comm100 Live Chat Code-->
 
 
-<iframe id="comm100-iframe" title="comm100-iframe" style="display: none;" lang="tr"></iframe><div id="comm100-container"><div><div></div><div><div></div></div><div aria-live="polite" style="position: absolute; left: -10000px; top: -10000px; width: 1px; height: 1px;"></div></div></div><script type="text/javascript" async="" src="https://validator.pagcorlicence.com/js/09f661d8-a9ab-4c24-bdee-396f913542ce"></script><iframe id="comm100-iframe" title="comm100-iframe" style="display: none;"></iframe></body></html>
+<iframe id="comm100-iframe" title="comm100-iframe" style="display: none;" lang="tr"></iframe><div id="comm100-container"><div><div></div><div><div></div></div><div aria-live="polite" style="position: absolute; left: -10000px; top: -10000px; width: 1px; height: 1px;"></div></div></div><script type="text/javascript" async="" src="https://validator.pagcorlicence.com/js/09f661d8-a9ab-4c24-bdee-396f913542ce"></script></body></html>
